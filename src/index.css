@@ -39,3 +39,13 @@ img {
   height: auto;
   display: block;
 }
+
+/* utilities class */
+.text--center {
+  text-align: center;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
