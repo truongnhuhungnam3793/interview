@@ -1,0 +1,32 @@
+/* section about */
+.section__about {
+  padding-block: 80px;
+}
+
+.section__about .section__title {
+  font-size: 40px;
+  line-height: 1.35;
+  margin-bottom: 49px;
+}
+
+.section__about .section__content {
+  max-width: 810px;
+  margin-inline: auto;
+}
+
+.section__about .gallery {
+  padding-inline: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-bottom: 51px;
+}
+
+.section__about .gallery__item {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.section__about .section__content .section__text {
+  line-height: 1.32;
+}
