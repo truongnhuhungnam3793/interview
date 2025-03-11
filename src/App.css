@@ -30,3 +30,29 @@
 .section__about .section__content .section__text {
   line-height: 1.32;
 }
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  /* section about */
+  .section__about {
+    padding-block: 40px;
+  }
+
+  .section__about .section__title {
+    color: #1f1f1f;
+    font-size: 32px;
+    margin-bottom: 27px;
+  }
+
+  .section__about .gallery {
+    padding-inline: 8px;
+    margin-bottom: 27px;
+    gap: 4px;
+  }
+
+  .section__about .section__content .section__text {
+    font-size: 14px;
+    line-height: 1.54;
+    padding-inline: 11px;
+  }
+}
