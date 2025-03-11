@@ -31,6 +31,25 @@
   line-height: 1.32;
 }
 
+/* Tablet */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* section about */
+  .section__about .section__title {
+    font-size: 36px;
+    margin-bottom: 36px;
+  }
+
+  .section__about .gallery {
+    gap: 16px;
+    margin-bottom: 36px;
+  }
+
+  .section__about .section__content .section__text {
+    font-size: 16px;
+    padding-inline: 16px;
+  }
+}
+
 /* Mobile */
 @media only screen and (max-width: 768px) {
   /* section about */
