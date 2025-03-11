@@ -133,6 +133,34 @@
     font-size: 16px;
     padding-inline: 16px;
   }
+
+  /* section info */
+  .section__info .info__content {
+    padding: 40px 32px;
+  }
+
+  .section__info .info__title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .section__info .info__list li + li {
+    margin-top: 20px;
+  }
+
+  .section__info .info__headline {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .section__info .info__text {
+    font-size: 16px;
+    line-height: 1.54;
+  }
+
+  .section__info .info__item:nth-child(even) .info__text {
+    line-height: 1.52;
+  }
 }
 
 /* Mobile */
