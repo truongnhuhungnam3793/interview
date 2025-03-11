@@ -1,7 +1,12 @@
 import "./App.css"
+import About from "./components/about"
 
 function App() {
-  return <main></main>
+  return (
+    <main>
+      <About />
+    </main>
+  )
 }
 
 export default App
